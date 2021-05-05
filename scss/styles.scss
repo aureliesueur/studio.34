@@ -312,7 +312,7 @@ h4 {
 
 .edito {
     @include boxshadow(darken($color-grey, 20%));
-    background-color: darken($color-grey, 15%);
+    background-color:darken($color-grey, 15%);
     color: $color-tertiary;
     padding: 40px 100px;
     margin-bottom: 40px;
@@ -542,7 +542,7 @@ h4 {
     &__header {
         flex-direction: column!important;
         padding: 30px;
-        & h6 {
+        & h5 {
             font-size: 1.1em;
             color: $color-primary!important;
             font-weight: bold;
@@ -997,7 +997,7 @@ h4 {
             font-size: 1em;
         }
         &__header {
-            & h6 {
+            & h5 {
                 font-size: 0.9em;
             }
             & p {

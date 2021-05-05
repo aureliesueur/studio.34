@@ -517,7 +517,7 @@ h4 {
     flex-direction: column !important;
     padding: 30px; }
     /* line 545, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
-    .news__header h6 {
+    .news__header h5 {
       font-size: 1.1em;
       color: #2D3E4E !important;
       font-weight: bold;
@@ -935,7 +935,7 @@ h4 {
     .news__title {
       font-size: 1em; }
     /* line 1000, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
-    .news__header h6 {
+    .news__header h5 {
       font-size: 0.9em; }
     /* line 1003, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__header p {

@@ -506,54 +506,55 @@ h4 {
 /* line 534, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
 .news {
   position: fixed !important;
-  top: 30% !important;
+  top: 20% !important;
   left: 20% !important;
   max-width: 60%;
   z-index: 20 !important;
-  animation: newsletter 30000ms both ease-in-out;
+  animation: newsletter 1000ms 29000ms both ease-in-out;
   display: block; }
   /* line 542, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news__header {
     flex-direction: column !important;
-    padding: 30px; }
-    /* line 545, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    padding: 30px;
+    padding-bottom: 15px; }
+    /* line 546, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__header h5 {
-      font-size: 1.1em;
+      font-size: 1em;
       color: #2D3E4E !important;
       font-weight: bold;
       margin: auto !important;
       margin-bottom: 30px !important;
       margin-top: 10px !important; }
-    /* line 553, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 554, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__header p {
       font-size: 0.9em;
       color: #2D3E4E !important;
       font-style: italic; }
-  /* line 559, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 560, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news__box {
     background: #FFF;
     border: 2px solid #2D3E4E !important;
     box-sizing: border-box !important;
     border-radius: 15px; }
-  /* line 565, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 566, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news__title {
     color: #53716f;
     text-align: center; }
-  /* line 569, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 570, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news__btn {
     display: block !important;
     margin: auto !important;
-    margin-bottom: 15px !important;
+    margin-bottom: 0px !important;
     color: #FFF !important; }
-    /* line 574, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 575, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__btn:hover {
       color: #000 !important;
       font-weight: bold; }
-  /* line 580, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 581, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news__footer button {
     color: #2D3E4E !important;
     font-size: 1em !important; }
-    /* line 583, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 584, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__footer button:hover {
       text-decoration: none !important;
       color: #000 !important;
@@ -563,53 +564,50 @@ h4 {
   0% {
     opacity: 0;
     transform: translateY(-1000px); }
-  97% {
-    opacity: 0;
-    transform: translateY(-100px); }
   100% {
     opacity: 1;
     transform: translateY(0); } }
 
 /*FOOTER*/
-/* line 611, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+/* line 609, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
 .footer {
   background-color: #a9a6a5 !important;
   color: #FFF !important;
   padding-top: 20px; }
-  /* line 615, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 613, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__box {
     justify-content: space-around !important; }
-  /* line 618, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 616, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__item {
     margin-bottom: 20px; }
-  /* line 621, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 619, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__sociallist {
     display: flex;
     justify-content: space-around;
     margin-top: 20px; }
-  /* line 626, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 624, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__social a {
     font-size: 2em !important;
     color: #32724e !important; }
-    /* line 629, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 627, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__social a:hover {
       color: #FFF !important; }
-  /* line 633, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 631, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__title {
     font-size: 1em; }
-  /* line 636, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 634, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__follow {
     font-size: 1em;
     color: #FFF; }
-  /* line 640, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 638, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__logo {
     font-family: 'Space Mono', 'Comfortaa', 'Open Sans', Verdana, sans-serif;
     font-size: 3em;
     color: #000; }
-    /* line 644, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 642, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__logo span {
       color: #32724e; }
-  /* line 648, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 646, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer__copyright {
     margin-top: 20px;
     color: #000;
@@ -617,402 +615,402 @@ h4 {
     width: 100%;
     border-top: 2px solid #000;
     font-size: 0.8em; }
-    /* line 655, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 653, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__copyright span {
       font-family: 'Space Mono', 'Open Sans', Verdana, sans-serif; }
 
 /* MEDIA QUERIES---------------------------------------------------------------------*/
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN ECRAN TABLETTE------------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* line 669, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 667, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   h2 {
     font-size: 2.3em !important; }
-  /* line 672, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 670, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   h3 {
     font-size: 1.3em !important; }
-  /* line 676, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 674, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .menu {
     max-height: 250px !important; }
-    /* line 678, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 676, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu h1 {
       margin-top: 40px;
       margin-bottom: 30px;
       font-size: 3.1em; }
-    /* line 683, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 681, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__icon {
       position: fixed;
       left: 30px;
       top: 30px; }
-    /* line 688, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 686, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__menu {
       margin: auto !important; }
-    /* line 691, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 689, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__item {
       background-color: #FFF; }
-    /* line 694, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 692, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__link::after {
       width: 30%; }
-  /* line 698, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 696, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .home {
     padding-top: 195px; }
-  /* line 702, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 700, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .description {
     width: 100%; }
-    /* line 704, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 702, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .description__title::after {
       width: 60%; }
-    /* line 707, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 705, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .description__text {
       padding-left: 50px;
       padding-right: 50px;
       max-width: 80%;
       margin: auto; }
-  /* line 715, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 713, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .equipements {
     padding: 100px; }
-    /* line 717, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 715, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__box {
       padding: 50px; }
-    /* line 720, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 718, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__title::after {
       width: 60%; }
-    /* line 723, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 721, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__text {
       padding: 25px;
       font-size: 1em; }
-  /* line 729, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 727, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .events {
     padding: 40px; }
-    /* line 731, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 729, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .events__title::after {
       width: 60%; }
-    /* line 734, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 732, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .events__text {
       padding: 40px 50px 0 40px;
       max-width: 80%;
       margin: auto; }
-  /* line 741, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 739, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .edito {
     padding: 60px 80px;
     margin-bottom: 0px; }
-    /* line 744, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 742, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__box {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center; }
-    /* line 749, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 747, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__title::after {
       width: 50%;
       margin-top: 30px; }
-    /* line 753, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 751, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__text1, .edito__text2 {
       margin-top: 20px;
       font-size: 0.9em;
       padding: 0; }
-    /* line 758, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 756, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__photo {
       width: 50%; }
-  /* line 764, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 762, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__box {
     padding-top: 30px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; }
-  /* line 770, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 768, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__title {
     padding-bottom: 20px;
     margin-bottom: 40px; }
-    /* line 773, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 771, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .info__title::after {
       width: 40%; }
-  /* line 777, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 775, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__details {
     padding-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
-  /* line 783, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 781, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__list {
     padding: 10px;
     margin: auto; }
-  /* line 787, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 785, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__plan {
     margin: auto;
     margin-top: 50px !important;
     margin-bottom: 50px; }
-    /* line 791, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 789, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .info__plan::before {
       bottom: 150%; }
-  /* line 796, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 794, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .contact {
     padding: 100px; }
-    /* line 798, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 796, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__title::after {
       width: 55%; }
-    /* line 801, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 799, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__request {
       width: 100%;
       padding: 10px; }
-      /* line 804, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 802, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .contact__request p {
         font-size: 1em; }
-  /* line 809, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 807, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news {
     top: 20% !important;
     max-width: 80%;
     left: 10% !important; }
-    /* line 813, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 811, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__title {
       font-size: 0.9em; }
-    /* line 816, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 814, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__header {
       padding-bottom: 0 !important; }
-      /* line 818, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 816, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .news__header h5 {
         font-size: 0.9em;
         margin-bottom: 10px !important; }
-      /* line 822, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 820, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .news__header p {
         font-size: 0.8em; }
-    /* line 826, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 824, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__footer {
       font-size: 0.9em;
       padding: 6px !important; }
-    /* line 830, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 828, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__btn {
       margin-bottom: 0 !important; } }
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN ECRAN TABLETTE (orientation paysage)------------------------------*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* line 839, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 837, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .menu {
     position: static; }
-    /* line 841, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 839, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__icon {
       position: static; }
-  /* line 845, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 843, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .home {
     padding-top: 25px !important; }
-  /* line 848, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 846, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news {
     top: 5% !important; } }
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN ECRAN SMARTPHONE------------------------------------------------*/
 @media (min-width: 320px) and (max-width: 480px) {
-  /* line 857, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 855, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   h1 {
     font-size: 2.2em !important; }
-  /* line 860, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 858, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   h2 {
     font-size: 2em !important; }
-  /* line 863, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 861, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   h3 {
     font-size: 1.1em !important; }
-  /* line 867, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 865, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .menu {
     max-height: 230px !important; }
-    /* line 869, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 867, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu h1 {
       margin-top: 40px;
       margin-bottom: 30px;
       text-align: end; }
-    /* line 874, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 872, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__icon {
       position: fixed;
       left: 30px;
       top: 45px;
       z-index: 10000 !important; }
-    /* line 880, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 878, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__menu {
       margin: auto !important; }
-    /* line 883, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 881, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__item {
       background-color: #FFF;
       font-size: 0.9em; }
-    /* line 887, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 885, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .menu__link::after {
       width: 30%; }
-  /* line 892, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 890, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .home {
     padding-top: 165px; }
-    /* line 894, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 892, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .home__photo {
       max-width: 110%; }
-    /* line 897, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 895, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .home__credit {
       font-size: 0.7em; }
-  /* line 902, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 900, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .description {
     width: 100%;
     padding: 0 10px;
     margin-bottom: 30px; }
-    /* line 906, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 904, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .description__box {
       padding: 0; }
-    /* line 909, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 907, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .description__title {
       margin-bottom: 20px; }
-      /* line 911, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 909, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .description__title::after {
         width: 70%; }
-    /* line 915, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 913, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .description__text {
       padding-left: 0px;
       padding-right: 0px;
       max-width: 100%;
       margin: auto;
       font-size: 0.9em; }
-  /* line 924, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 922, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .equipements {
     padding: 40px; }
-    /* line 926, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 924, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__box {
       padding: 20px; }
-    /* line 929, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 927, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__title::after {
       width: 90%; }
-    /* line 932, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 930, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__text {
       padding: 15px;
       font-size: 0.9em; }
-    /* line 936, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 934, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__item {
       font-size: 0.8em; }
-  /* line 941, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 939, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .events {
     padding: 20px;
     margin-bottom: 20px; }
-    /* line 944, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 942, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .events__title::after {
       width: 90%; }
-    /* line 947, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 945, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .events__text {
       padding: 20px 0px 0px 0px;
       max-width: 80%;
       margin: auto;
       font-size: 0.9em; }
-  /* line 955, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 953, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .edito {
     padding: 30px 30px; }
-    /* line 957, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 955, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__box {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center; }
-    /* line 962, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 960, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__title::after {
       width: 90%;
       margin-top: 30px; }
-    /* line 966, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 964, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__text1, .edito__text2 {
       margin-top: 20px;
       font-size: 0.8em;
       padding: 0; }
-    /* line 971, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 969, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__photo {
       width: 80%; }
-    /* line 975, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 973, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__figcaption {
       max-width: 100%; }
-  /* line 981, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 979, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__box {
     padding-top: 20px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center; }
-  /* line 987, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 985, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__title {
     padding-bottom: 20px;
     margin-bottom: 30px; }
-    /* line 990, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 988, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .info__title::after {
       width: 90%; }
-  /* line 994, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 992, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__details {
     padding-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
-  /* line 1000, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 998, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__list {
     padding: 10px;
     margin: auto; }
-  /* line 1004, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1002, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__plan {
     margin: auto;
     margin-top: 50px !important;
     margin-bottom: 50px; }
-    /* line 1008, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1006, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .info__plan::before {
       bottom: 150%; }
-  /* line 1012, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1010, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info iframe {
     width: 110%; }
-  /* line 1016, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1014, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .contact {
     padding: 40px; }
-    /* line 1018, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1016, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__title::after {
       width: 90%; }
-    /* line 1021, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1019, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__request {
       width: 100%;
       padding: 0px; }
-      /* line 1024, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 1022, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .contact__request p {
         font-size: 0.9em; }
-    /* line 1028, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1026, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__btn {
       width: 80% !important; }
-  /* line 1032, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1030, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news {
     top: 20% !important;
     max-width: 90%;
     left: 5% !important; }
-    /* line 1036, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1034, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__title {
       font-size: 0.8em; }
-    /* line 1039, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1037, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__header {
       padding-bottom: 0 !important; }
-      /* line 1041, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 1039, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .news__header h5 {
         font-size: 0.9em;
         margin-bottom: 10px !important; }
-      /* line 1045, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 1043, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .news__header p {
         font-size: 0.7em; }
-    /* line 1049, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1047, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__footer {
       font-size: 0.8em;
       padding: 6px !important; }
-    /* line 1053, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1051, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__btn {
       margin-bottom: 0 !important; }
-  /* line 1057, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1055, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .footer {
     padding-top: 20px; }
-    /* line 1059, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1057, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__item {
       margin-bottom: 20px; }
-    /* line 1062, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1060, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__sociallist {
       display: flex;
       justify-content: space-around;
       margin-top: 20px; }
-    /* line 1067, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1065, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__social a {
       font-size: 2em !important; }
-    /* line 1070, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1068, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__title {
       font-size: 1em; }
-    /* line 1073, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1071, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__follow {
       font-size: 0.8em; }
-    /* line 1076, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1074, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__logo {
       font-size: 2em; }
-    /* line 1079, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1077, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .footer__copyright {
       margin-top: 10px;
       width: 100%;
@@ -1020,108 +1018,108 @@ h4 {
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN ECRAN SMARTPHONE (orientation paysage)------------------------------*/
 @media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
-  /* line 1090, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1088, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   h2 {
     font-size: 2em !important; }
-  /* line 1093, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1091, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .menu {
     position: static; }
-  /* line 1096, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1094, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .description__text {
     padding: 0; }
-  /* line 1099, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1097, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .equipements {
     padding: 40px 50px; }
-    /* line 1101, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1099, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .equipements__box {
       padding: 40px; }
-  /* line 1105, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1103, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .events {
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0; }
-    /* line 1109, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1107, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .events__text {
       padding: 40px; }
-  /* line 1114, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1112, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .edito__title {
     margin-bottom: 0; }
-  /* line 1117, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1115, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .edito__text2 {
     padding-bottom: 0;
     padding-top: 0; }
-  /* line 1122, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1120, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .info__plan {
     margin: 0 0 40px 10% !important; }
-  /* line 1125, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1123, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .contact {
     padding: 40px 50px; }
-    /* line 1127, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1125, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__box {
       padding: 40px; }
-    /* line 1130, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1128, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .contact__request {
       margin: auto;
       width: 90%; }
-  /* line 1135, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1133, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .news {
     top: 2% !important;
     max-width: 90%;
     left: 5% !important; }
-    /* line 1139, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1137, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__title {
       font-size: 0.8em; }
-    /* line 1142, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1140, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__header {
       padding-bottom: 0 !important; }
-      /* line 1144, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 1142, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .news__header h5 {
         font-size: 0.9em;
         margin-bottom: 10px !important; }
-      /* line 1148, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+      /* line 1146, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
       .news__header p {
         font-size: 0.7em; }
-    /* line 1152, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1150, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__footer {
       font-size: 0.8em;
       padding: 6px !important; }
-    /* line 1156, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1154, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .news__btn {
       margin-bottom: 0 !important; } }
 
 /* MEDIA QUERIES POUR REGLER BUGS SUR TABLETTE------------------------------*/
 @media (min-width: 990px) and (max-width: 1089px) {
-  /* line 1166, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1164, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .menu__item {
     font-size: 0.8em !important; }
-  /* line 1170, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1168, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .edito {
     padding: 40px 100px;
     margin-bottom: 40px; }
-    /* line 1173, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1171, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__box {
       flex-direction: row;
       justify-content: center;
       align-items: flex-start; }
-    /* line 1179, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1177, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__title::after {
       width: 45%; }
-    /* line 1183, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1181, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__text1, .edito__text2 {
       font-size: 0.9em; }
-    /* line 1186, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1184, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__text1 {
       padding: 40px 0px 40px 0px; }
-    /* line 1189, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1187, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__text2 {
       padding: 40px 0px 40px 0px; }
-    /* line 1192, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+    /* line 1190, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
     .edito__photo {
       align-self: center; } }
 
 /* MEDIA QUERIES POUR ADAPTER LE SITE A UN GRAND ECRAN------------------------------*/
 @media screen and (min-width: 1366px) {
-  /* line 1203, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
+  /* line 1201, /Users/Bargeme/Desktop/Studio.34/SiteWeb/scss/styles.scss */
   .menu h1 {
     margin-top: 40px;
     margin-bottom: 40px;

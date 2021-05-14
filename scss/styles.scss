@@ -533,17 +533,18 @@ h4 {
 
 .news {
     position: fixed!important;
-    top: 30%!important;
+    top: 20%!important;
     left:20%!important;
     max-width: 60%;
     z-index: 20!important;
-    animation: newsletter 30000ms both ease-in-out;
+    animation: newsletter 1000ms 29000ms both ease-in-out;
     display: block;
     &__header {
         flex-direction: column!important;
         padding: 30px;
+        padding-bottom: 15px;
         & h5 {
-            font-size: 1.1em;
+            font-size: 1em;
             color: $color-primary!important;
             font-weight: bold;
             margin: auto!important;
@@ -569,7 +570,7 @@ h4 {
     &__btn {
         display: block!important;
         margin: auto!important;
-        margin-bottom: 15px!important;
+        margin-bottom: 0px!important;
         color: #FFF!important;
         &:hover {
             color: #000!important; 
@@ -596,10 +597,7 @@ h4 {
         opacity: 0;
         transform: translateY(-1000px);
     }
-    97% {
-        opacity: 0;
-        transform: translateY(-100px);
-    }
+    
     100% {
         opacity: 1;
         transform: translateY(0);

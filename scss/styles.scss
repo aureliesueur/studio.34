@@ -196,7 +196,7 @@ h4 {
 }
 
 .equipements {
-    background: url("../images/34phot6.jpg") fixed no-repeat;
+    background: url("../images/34phot8.jpg") fixed no-repeat;
     padding: 140px;
     &__box {
         background: rgba(194, 192, 191, 0.85);
@@ -250,7 +250,6 @@ h4 {
 /*EVENTS*/
 
 .events {
-    //@include boxshadow(darken($color-grey, 20%));
     padding: 60px;
     background: none;
     margin-bottom: 40px;
@@ -530,6 +529,7 @@ h4 {
     }
 }
 
+/*POP UP INSCRIPTION NEWSLETTER*/
 
 .news {
     position: fixed!important;
@@ -618,6 +618,8 @@ h4 {
     }
     &__sociallist {
         display: flex;
+        width: 50%;
+        margin: auto;
         justify-content: space-around;
         margin-top: 20px;
     }
